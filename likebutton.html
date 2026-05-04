@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="likeBtn" style="padding: 10px 20px; cursor: pointer;">
+  ❤️ Like
+</button>
+
+<script>
+  const button = document.getElementById('likeBtn');
+  button.addEventListener('click', function() {
+    alert('You liked this! Thanks for the love.');
+    button.textContent = '💖 Liked';
+    button.style.backgroundColor = '#ffe0e0';
+  });
+</script>
+    
+</body>
+</html>
